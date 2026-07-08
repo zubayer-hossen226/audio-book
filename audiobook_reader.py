@@ -1,18 +1,5 @@
 """
-PDF Audiobook Reader
----------------------
-Upload a PDF, click Run, and it will read the text aloud while
-highlighting the word/sentence currently being spoken.
-
-Install dependencies first:
-    pip install pyttsx3 pypdf
-
-Notes on highlighting accuracy:
-    pyttsx3 fires a "started-word" event with the exact character
-    position of each spoken word ONLY on the Windows SAPI5 driver.
-    On macOS (nsss) and Linux (espeak) drivers, word-level offsets
-    are often missing or unreliable, so this app automatically
-    falls back to sentence-level highlighting on those platforms.
+For dekstop , not working in browser
 """
 
 import re
